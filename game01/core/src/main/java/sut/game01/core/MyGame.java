@@ -8,6 +8,9 @@ import playn.core.ImageLayer;
 import playn.core.util.Clock;
 import tripleplay.game.ScreenStack;
 
+
+
+
 public class MyGame extends Game.Default {
 
   public static final int UPDATE_RATE = 25;
