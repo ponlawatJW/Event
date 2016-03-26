@@ -25,7 +25,9 @@ public class TestScreen extends Screen {
         Image bgImage = assets().getImage("images/Bg1.png");
         this.bg = graphics().createImageLayer(bgImage);
 
-
+//=======================================================================
+//                            back
+//=======================================================================
         Image backImage = assets().getImage("images/pum.png");
         this.backButton = graphics().createImageLayer(backImage);
         backButton.setTranslation(10 , 10);
@@ -36,7 +38,7 @@ public class TestScreen extends Screen {
                 ss.remove(ss.top());
             }
         });
-
+//////////
     }
 
     @Override
