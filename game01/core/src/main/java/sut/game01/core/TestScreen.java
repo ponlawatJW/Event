@@ -22,7 +22,7 @@ public class TestScreen extends Screen {
     public TestScreen(final ScreenStack ss) {
         this.ss = ss;
 
-        Image bgImage = assets().getImage("images/bg.png");
+        Image bgImage = assets().getImage("images/Bg1.png");
         this.bg = graphics().createImageLayer(bgImage);
 
 
